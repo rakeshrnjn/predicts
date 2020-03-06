@@ -1,0 +1,7 @@
+export { postMatch } from './matches'
+export { fetchSchedule, getMatchID, onlock } from './schedule'
+export { postPrediction, getMatch } from './prediction'
+export { auth,logout } from './auth'
+export { fetchUsers, getUsers, fetchPrediction } from './dashboard'
+export { postResult, postPoints, fetchUserPoints } from './result'
+export { closeAlerts } from './utils'
